@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="pefile">
+      <UniqueIdentifier>{e5853a93-701e-497f-8fbd-d4f8df751654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="process">
+      <UniqueIdentifier>{80875d5f-1d7b-40c9-9192-0dd6d06424de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nativeapi">
+      <UniqueIdentifier>{4359641b-14b3-4bf9-aff1-1fb9282b371c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{af34be8e-f4b3-4062-8225-4f32c6823349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6987ef3b-5a58-4864-96a9-1bd8aae3839c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZydisWrapper">
+      <UniqueIdentifier>{69a32960-a66e-49df-9aa3-de970ada86bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="emulator">
+      <UniqueIdentifier>{790cf3d8-6e26-47e4-b91b-b7ffc541ee5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="api">
+      <UniqueIdentifier>{1a8db70e-d21d-44c6-af73-1314998d9104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iat">
+      <UniqueIdentifier>{c57f42d9-3d38-483d-ada0-5f35ed7f4bdb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VMP-Import-Fix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pefile\pefile.cpp">
+      <Filter>pefile</Filter>
+    </ClCompile>
+    <ClCompile Include="process\process.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="nativeapi\nativeapi.cpp">
+      <Filter>nativeapi</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ZydisWrapper\Wrapper.cpp">
+      <Filter>ZydisWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="api\api.cpp">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="emulator\emulator.cpp">
+      <Filter>emulator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pefile\pefile.h">
+      <Filter>pefile</Filter>
+    </ClInclude>
+    <ClInclude Include="process\process.h">
+      <Filter>process</Filter>
+    </ClInclude>
+    <ClInclude Include="nativeapi\nativeapi.h">
+      <Filter>nativeapi</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="argparse.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZydisWrapper\Wrapper.h">
+      <Filter>ZydisWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="iat\iat.hpp">
+      <Filter>iat</Filter>
+    </ClInclude>
+    <ClInclude Include="api\api.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="emulator\emulator.h">
+      <Filter>emulator</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
